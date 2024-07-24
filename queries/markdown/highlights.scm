@@ -47,14 +47,14 @@
 ((fenced_code_block) @markup.raw.block
   (#set! "priority" 90))
 
-(fenced_code_block
-  (fenced_code_block_delimiter) @markup.raw.block
-  (#set! conceal ""))
+; (fenced_code_block
+;   (fenced_code_block_delimiter) @markup.raw.block
+;   (#set! conceal ""))
 
-(fenced_code_block
-  (info_string
-    (language) @label
-    (#set! conceal "")))
+; (fenced_code_block
+;   (info_string
+;     (language) @label
+;     (#set! conceal "")))
 
 (link_destination) @markup.link.url
 
